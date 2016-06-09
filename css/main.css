@@ -19456,7 +19456,8 @@ span.gal_ctrl.prev .arrow {
 
     
     .footer{
-        font-family: 'Droid Sans', arial, serif;
+        font-family: 'Open Sans', arial, serif;
+        font-size: small;
         padding: .5em .5em;   
         width: 100%;
         top:100px;
