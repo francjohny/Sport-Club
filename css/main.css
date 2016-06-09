@@ -109,6 +109,17 @@ textarea {
         width: 100%;
     }
 
+    .container {
+    padding-right: 0em;
+    padding-left: 0em; 
+    margin-right: auto;
+    margin-left: auto;
+}
+
+    #parentcontentcontainer {
+        padding-top: 10em;
+    }
+
     header {
         overflow: none;
         background: #5C0000;
@@ -136,6 +147,10 @@ textarea {
         padding: 0;
         margin: 0;
     }
+
+    .selectpicker {
+        background-color: black;
+    }
     
     div#clubpage {
         display: inline;
@@ -143,7 +158,10 @@ textarea {
         margin: 5em;
     }
     
-/*
+    .carousel-inner {
+        top: 100px;
+    }
+
     #playerlinks {
         height: 139px;
         margin-bottom: 1px
@@ -548,9 +566,9 @@ textarea {
 #contentcontainer div.newsarchive h3.mufredrewardsheader {
     margin-right: 1px
 }
-*/
 
-/*/styles/css/common1.css-431*/
+
+/*styles/css/common1.css-431*/
 html, body {
     height: 100%
 }
@@ -864,17 +882,19 @@ ul#navigation, #navigation ul {
     color: #fff
 }
 
+
 #headerlink {
     position: absolute;
     top: 46px
 }
 
 #cfcontentcontainer, #cpcontentcontainer, #contentcontainer, #mutvcontainer {
-    position: absolute;
-    top: 100px;
-    margin-top: 10em;
+    position: relative;
+    top: auto;
+    margin-top: auto;
     width: 664px;
-    background-color: #000
+    background-color: #000;
+    float: left;
 }
 
 #soluscontainer {
@@ -1775,6 +1795,7 @@ h1 {
 
 h2 {
     font-size: 1em;
+    font-family: Deadpool Movie;
     float: none;
     margin-bottom: .5em
 }
@@ -2661,7 +2682,7 @@ h3.tab3-3 {
 #profileboxes a {
     border: solid 1px #666;
     width: 204px;
-    height: 360px;
+    height: 370px;
     margin: 7px 5px;
     color: #b3b3b3;
     text-decoration: none;
@@ -2697,7 +2718,7 @@ h3.tab3-3 {
 #profileboxes a span.details {
     display: block;
     width: 190px;
-    height: 184px;
+    height: 190px;
     padding: 0;
     background-color: #000;
     border: 1px solid #2f2f2f
@@ -2705,7 +2726,7 @@ h3.tab3-3 {
 
 #profileboxes a span.timestamp {
     display: block;
-    height: 12px;
+    height: 21px;
     line-height: 12px;
     padding: 4px;
     background-color: #2f2f2f;
@@ -2715,7 +2736,7 @@ h3.tab3-3 {
 
 #profileboxes a span.abstract {
     display: block;
-    height: 153px;
+    height: 170px;
     line-height: 1.5em;
     padding: 4px;
     background-color: #2f2f2f;
@@ -12208,6 +12229,10 @@ h3.cffbtab1 a:hover, h3.cffbtab2 a:hover {
     margin-bottom: 0
 }
 
+.h3, h3 {
+    font-size:16px;
+}
+
 .oumbtitle h1.pricest {
     margin-bottom: 4px;
     text-transform: uppercase
@@ -15010,6 +15035,7 @@ a.icon_Seattle:hover, a:hover .icon_Seattle {
     top: 0;
     background-color: #000
 }
+
 
 #bottomScreenSavers {
     position: absolute;
@@ -19431,7 +19457,13 @@ span.gal_ctrl.prev .arrow {
     
     .footer{
         font-family: 'Droid Sans', arial, serif;
-        padding: 1em .5em;    
+        padding: .5em .5em;   
+        width: 100%;
+        top:100px;
+        margin-top: auto; 
+        text-align: right;
+        background-color: #5C0000;
+        color: rgb(170, 170, 170);
     }
 
     .carousel-inner > .item > img,

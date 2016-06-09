@@ -1,0 +1,28 @@
+.form-group.required .control-label:after { 
+   content:"*";
+   color:red;
+}
+
+body {
+    background: #485563; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #485563 , #29323c); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #485563 , #29323c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */        
+}
+
+label, h2 {
+    color: white;
+}
+
+#errorMessage {
+    color: red;
+}
+
+#successMessage {
+    color: greenyellow;
+}
+
+
+#page-wrap {
+     width: 800px;
+     margin: 0 auto;
+}

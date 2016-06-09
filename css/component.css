@@ -11,6 +11,13 @@
 	-moz-transition: height 0.3s;
 	transition: height 0.3s;
 }
+
+.btn-default {
+	
+	background-color: #000;
+	border-color: #ccc;
+	color: white;
+}
 /*
 
 .cbp-af-header .cbp-af-inner {
